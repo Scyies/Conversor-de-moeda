@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+          Conversor de moedas
+        </h1>
+        <p class="page-subtitle">
+      
+        </p>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+        <label for="moeda">Insira o valor</label><br>
+      
+        <div class="containerMoeda">
+          <div class="moeda">
+            <select id="moedaUm">
+              <option value="BRL">BRL</option>
+              <option value="AUD">AUD</option>
+              <option value="CAD">CAD</option>
+              <option value="CHF">CHF</option>
+              <option value="EUR">EUR</option>
+              <option value="GBP">GBP</option>
+              <option value="JPY">JPY</option>
+              <option value="RUB">RUB</option>
+              <option value="USD" selected>USD</option>
+            </select>
+            <input type="number" id="primeiraQuantia" placeholder="0" value="0" />
+            <span></span>
+          </div>
+      
+          <div class="botaoDeTroca">
+            <button type="button" class="btn" id="troca">Inverter</button>
+            <div class="rate" id="rate"></div>
+          </div>
+      
+          <div class="moeda">
+            <select id="moedaDois">
+              <option value="BRL" selected>BRL</option>
+              <option value="AUD">AUD</option>
+              <option value="CAD">CAD</option>
+              <option value="CHF">CHF</option>
+              <option value="EUR">EUR</option>
+              <option value="GBP">GBP</option>
+              <option value="JPY">JPY</option>
+              <option value="RUB">RUB</option>
+              <option value="USD">USD</option>
+            </select>
+            <input type="number" id="segundaQuantia" />
+            <span></span>
+          </div>
+      
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+          <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<script src="script.js"></script>
+        </body>
+</html>
